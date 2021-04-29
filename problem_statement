@@ -1,0 +1,13 @@
+Problem: Recipe Sales Forecast
+
+Problem Statement
+
+customers order recipes from the weekly menu. An important aspect of the business is that we should be able to predict the sales of recipes WoW.
+
+Data
+
+train_data_cleaned.csv: The train data consists of recipe id, the year-week in which this recipe was available, some recipe attributes and actual sales of the recipe.
+
+test_data_cleaned.csv: The test data consists of all the columns as in train data except the actual sales.
+
+Objective: The objective is to build a model and predict sales on the test data. Evaluated using RMSE
